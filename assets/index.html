@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viweport" content="width=divice-width, initial-scale=1.0">
+  <meta http-equiv="Xua-compatible" content="ei=edge">
+   <title>BlackJackJanus</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+    </head>
+<body>
+    
+<header class="titulo">
+  BlackJackJanus
+</header>
+
+<div class="row mt-2">
+<div class="col text-center">
+
+  <button  id="btnnuevo" class="btn btn-danger">Nuevo Juego</button>
+  <button id="btnpedir" class="btn btn-primary">Carta</button>
+  <button id="btndetener" class="btn btn-primary">Detener</button>
+
+</div>
+
+</div>
+
+<div class="row conteiner">
+
+  <div class="col">
+    <h1> Jugador 1 - <small>0</small></h1>
+    <div id="jugador-cartas"></div>
+    
+
+ 
+  </div>
+
+
+
+</div>
+
+<div class="row conteiner mt-2">
+
+  <div class="col">
+    <h1> Computadora - <small>0</small></h1>
+    <div id="computadora-cartas"></div>
+    <img  class="carta" src="cartas/10S.png">
+   
+
+ 
+  </div>
+
+
+
+</div>
+
+    <script src="js/underscore-min.js"></script>
+   <script src="js/juego.js"></script>
+
+
+
+
+</body>
+
+
+
+
+</html>
